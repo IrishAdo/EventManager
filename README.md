@@ -2,8 +2,8 @@ EventManager
 ============
 
 A javascript library that allows you to link a html element to a function using data-* attributes
-
-<script>
+<pre>
+&lt;script>
 var myObject = {
     subObject = {
         YouClickedSomething(t){
@@ -17,9 +17,10 @@ var myObject = {
         }
     }
 };
-</script>
+&lt;/script>
 
-<button id='button1' data-action="click" data-click="myObject.subObject.YouClickedSomething">button 1</button>
-<input id='field1' data-action="click" data-click="myObject.subObject.YouClickedSomething" value='input 1'/>
-<button id='button2' data-action="click" data-click="myObject.subObject.withParams" data-argc='1' data-argv1='ted!!!'>button 2</button>
-<button id='button3' data-action="click" data-click="myObject.subObject.withExtraParams" data-argc='2' data-argv1='ted!!!' data-argv2='james!!!'>button 3</button>
+&lt;button id='button1' data-action="click" data-click="myObject.subObject.YouClickedSomething">button 1&lt;/button>
+&lt;input id='field1' data-action="click" data-click="myObject.subObject.YouClickedSomething" value='input 1'/>
+&lt;button id='button2' data-action="click" data-click="myObject.subObject.withParams" data-argc='1' data-argv1='ted!!!'>button 2&lt;/button>
+&lt;button id='button3' data-action="click" data-click="myObject.subObject.withExtraParams" data-argc='2' data-argv1='ted!!!' data-argv2='james!!!'>button 3&lt;/button>
+</pre>
