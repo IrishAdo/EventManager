@@ -24,3 +24,5 @@ var myObject = {
 &lt;button id='button2' data-action="click" data-click="myObject.subObject.withParams" data-argc='1' data-argv1='ted!!!'>button 2&lt;/button>
 &lt;button id='button3' data-action="click" data-click="myObject.subObject.withExtraParams" data-argc='2' data-argv1='ted!!!' data-argv2='james!!!'>button 3&lt;/button>
 </pre>
+
+<a href='http://irishado.blogspot.co.uk/2013/04/binding-functions-to-html-elements.html' title='Binding functions to HTML elements using HTML5 data- attributes'>I've put a better description/tutorial on my blog</a>
